@@ -1,0 +1,36 @@
+	grau de todos os vértices
+a)    in                     out
+1:  {2, 4}: grau 2          {2}: grau 1
+2:  {1, 5}: grau 2          {1, 3, 5}: grau 3
+3:  {2}: grau 1             {4}: grau 1
+4:  {3}: grau 1             {1, 5}: grau 2
+5:  {2, 4}: grau 2          {2}: grau 1
+
+b)    in                     out
+o:  {s}: grau 1             {p, q}: grau 2
+p:  {o, s}: grau 2          {r}: grau 2
+q:  {o}: grau 1             {r, t}: grau 2
+r:  {q, p}: grau 2          {t}: grau 1
+s:  {}: grau 0              {o, p}: grau 2
+t:  {q, r}: grau 2          {}: grau 0
+
+c)
+1:  {2, 5}: grau 2
+2:  {1, 3, 5}: grau 3
+3:  {2, 4}: grau 2
+4:  {3, 5, 6}: grau 3
+5:  {1, 2, 4}: grau 3
+6:  {4}: grau 1
+
+d)
+a:  {b, c, d, e}: grau 4
+b:  {a, c, e, d, f, g}: grau 6
+c:  {a, b, e, d}: grau 4
+d:  {a, b, c, e, f, g}: grau 6
+e:  {a, b, c, d}: grau 4
+f:  {b, d, g, h, i}: grau 5
+g:  {b, d, f, i, j, k}: grau 6
+h:  {f, i}: grau 2
+i:  {f, g, h, j, k}: grau 5
+j:  {g, i, k}: grau 3
+k:  {g, i, j}: grau 3

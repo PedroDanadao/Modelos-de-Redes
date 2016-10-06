@@ -34,3 +34,5 @@ h:  {f, i}: grau 2
 i:  {f, g, h, j, k}: grau 5
 j:  {g, i, k}: grau 3
 k:  {g, i, j}: grau 3
+
+x
